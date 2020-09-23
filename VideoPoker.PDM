@@ -1,0 +1,156 @@
+[Root]
+Most Recent Package=VDPoker
+
+
+[Package|VDPoker|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Deploy
+
+[Package|VDPoker|Configure DAO ISAMs]
+Applicable=No
+
+[Package|VDPoker|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|VDPoker|Files Found]
+HowTo.txt=C:\VB\VDPoker\HowTo.txt
+
+[Package|VDPoker|Files Released]
+
+[Package|VDPoker|Missing Dependency Information]
+
+[Package|VDPoker|Out-of-Date Dependency Information]
+
+[Package|VDPoker|Files Added]
+c:\vb\vdpoker\orderfm.txt=
+c:\vb\vdpoker\howto.txt=
+c:\vb\vdpoker\r_lic.txt=
+c:\vb\vdpoker\readme.txt=
+c:\vb\vdpoker\regfile.rdp=
+c:\vb\vdpoker\t_lic.txt=
+c:\vb\vdpoker\version.txt=
+
+[Package|VDPoker|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|VDPoker|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\VBCards.ocx=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\VB\VDPoker\VideoPoker.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\VB\VDPoker\VDPHELP.HLP=Yes
+C:\VB\VDPoker\OrderFm.txt=Yes
+C:\VB\VDPoker\HowTo.txt=Yes
+C:\VB\VDPoker\R_Lic.txt=Yes
+C:\VB\VDPoker\ReadMe.txt=Yes
+C:\VB\VDPoker\RegFile.rdp=Yes
+C:\VB\VDPoker\T_Lic.txt=Yes
+C:\VB\VDPoker\Version.txt=Yes
+
+[Package|VDPoker|Configure Registry Files]
+Applicable=No
+
+[Package|VDPoker|Configure Remote Servers]
+Applicable=No
+
+[Package|VDPoker|Install Locations]
+C:\VB\_Work\VDPoker\VideoPoker.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VBCards.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\VB\_Work\VDPoker\VDPHELP.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB\_Work\VDPoker\OrderFm.txt=$(AppPath)
+C:\VB\_Work\VDPoker\HowTo.txt=$(AppPath)
+C:\VB\_Work\VDPoker\R_Lic.txt=$(AppPath)
+C:\VB\_Work\VDPoker\ReadMe.txt=$(AppPath)
+C:\VB\_Work\VDPoker\RegFile.rdp=$(AppPath)
+C:\VB\_Work\VDPoker\T_Lic.txt=$(AppPath)
+C:\VB\_Work\VDPoker\Version.txt=$(AppPath)
+C:\VB\VDPoker\VideoPoker.exe=$(AppPath)
+C:\VB\VDPoker\VDPHELP.HLP=$(AppPath)
+C:\VB\VDPoker\OrderFm.txt=$(AppPath)
+C:\VB\VDPoker\HowTo.txt=$(AppPath)
+C:\VB\VDPoker\R_Lic.txt=$(AppPath)
+C:\VB\VDPoker\ReadMe.txt=$(AppPath)
+C:\VB\VDPoker\RegFile.rdp=$(AppPath)
+C:\VB\VDPoker\T_Lic.txt=$(AppPath)
+C:\VB\VDPoker\Version.txt=$(AppPath)
+
+[Package|VDPoker|Configure Shared Files]
+Applicable=Yes
+C:\VB\_Work\VDPoker\VideoPoker.exe=No
+C:\VB\_Work\VDPoker\VDPHELP.HLP=No
+C:\VB\_Work\VDPoker\OrderFm.txt=No
+C:\VB\_Work\VDPoker\HowTo.txt=No
+C:\VB\_Work\VDPoker\R_Lic.txt=No
+C:\VB\_Work\VDPoker\ReadMe.txt=No
+C:\VB\_Work\VDPoker\RegFile.rdp=No
+C:\VB\_Work\VDPoker\T_Lic.txt=No
+C:\VB\_Work\VDPoker\Version.txt=No
+C:\VB\VDPoker\VideoPoker.exe=No
+C:\VB\VDPoker\VDPHELP.HLP=No
+C:\VB\VDPoker\OrderFm.txt=No
+C:\VB\VDPoker\HowTo.txt=No
+C:\VB\VDPoker\R_Lic.txt=No
+C:\VB\VDPoker\ReadMe.txt=No
+C:\VB\VDPoker\RegFile.rdp=No
+C:\VB\VDPoker\T_Lic.txt=No
+C:\VB\VDPoker\Version.txt=No
+
+[Package|VDPoker|Distribution]
+Type=single
+Size=
+Title=Video Draw Poker
+
+[Package|VDPoker|IconGroups]
+Group0=Video Draw Poker
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|VDPoker|Video Draw Poker]
+Icon1=VideoPoker.exe
+Title1=Video Draw Poker
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=VDPHELP.HLP
+Title2=Video Draw Poker Help
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|VDPoker|Package]
+PackageFolder=C:\Deploy
+ProjectFolder=C:\VB\VDPoker
+ServerSideCab=
+File1=C:\Deploy\setup.exe
+File2=C:\Deploy\Setup.Lst
+File3=C:\Deploy\VideoPoker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
